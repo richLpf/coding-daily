@@ -18,5 +18,8 @@
   "homepage": "https://github.com/richLpf/coding-daily#readme",
   "dependencies": {
     "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.6"
   }
 }
