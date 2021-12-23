@@ -1,0 +1,22 @@
+{
+  "name": "coding-daily",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richLpf/coding-daily.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richLpf/coding-daily/issues"
+  },
+  "homepage": "https://github.com/richLpf/coding-daily#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
