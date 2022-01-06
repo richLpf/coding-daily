@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <Input id="input">
+    <script>
+        window.onload = () => {
+            function getList(a){
+                console.log("输入的内容", a)
+            }
+            const handleList = Debounce(getList, 200)
+            const throttleList = throttle(getList, 1000)
+            input.addEventListener("input", (e) => {
+                // console.log("e.target", e.target.value)
+                // document.getElementById("input").value = e.target.value;
+                // handleList(e.target.value)
+                throttleList(e.target.value)
+            })
+
+        }
+    </script>
+</body>
+</html>
