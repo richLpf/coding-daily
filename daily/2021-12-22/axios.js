@@ -1,7 +1,7 @@
 var toString = Object.prototype.toString;
 // 判断数组的几种方法
 function isArray(val) {
-    return toString.call(val) === '[object Array]'
+    return Object.toString().call(val) === '[object Array]'
 }
 
 // 判断undefined
