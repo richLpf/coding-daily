@@ -16,5 +16,5 @@ function castPath(value, object){
 }
 
 function stringToPath(value){
-    
+   console.log("test", value) 
 }
